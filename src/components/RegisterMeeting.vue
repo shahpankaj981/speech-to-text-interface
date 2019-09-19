@@ -85,12 +85,13 @@ export default {
       //return;
       this.$http.post(this.baseurl+'/meeting', this.form)
         .then((result) => {
-          console.log('Meeting registered successfully.');
+          this.$snotify.success('Meeting registered successfully!!', 'Success');
+
           let meetingId = result.data.meeting.id;
           this.$emit('meetingSaved', meetingId);
         })
         .catch(error => {
-
+          this.$snotify.error('Something went wrong!!', 'Error');
         })
 
     }

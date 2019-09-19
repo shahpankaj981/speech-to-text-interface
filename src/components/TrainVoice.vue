@@ -109,7 +109,9 @@ export default {
     submit () {
       this.processing = true
       if (this.form.voice_list.length < 1) {
-        alert('You must crop at least once voice sample.')
+        this.$snotify.error('You must crop at least once voice sample.!!', 'Error!!');
+
+        return '';
       }
       this.form.audio_name = this.audioname
       this.processingText = 'Registering voice samples.....'
@@ -121,14 +123,17 @@ export default {
             .then((result) => {
               this.processing = false
               this.reset();
-              alert('Voice samples registered and trained successfully.')
+              this.$snotify.success('Voice samples registered and trained successfully!!', 'Success!!');
+
             })
             .catch(error => {
               this.processing = false
+              this.$snotify.error('Something went wrong!!', 'Error');
             })
         })
         .catch(error => {
           this.processing = false
+          this.$snotify.error('Something went wrong!!', 'Error');
         })
     },
     recognizeSpeakers () {
@@ -138,10 +143,11 @@ export default {
           this.recognizeProcessing = false;
           this.$emit('voiceRecognized', result.data.data.recognized_speakers);
 
-          alert('Voices recognized successfully.')
+          this.$snotify.success('Voices recognized successfully!!', 'Success!!');
         })
         .catch(error => {
           this.recognizeProcessing = false
+          this.$snotify.error('Something went wrong!!', 'Error!!');
         })
     },
     cropTime (event) {
@@ -152,9 +158,9 @@ export default {
       } else {
         this.endTime = currentTime
         if (this.endTime - this.startTime < 1) {
-          alert('The time frame should be at least 1 second.')
+          this.$snotify.error('The time frame should be at least 1 second.!!', 'Error');
 
-          return
+          return ;
         }
         this.form.voice_list.push({
           start: this.startTime,

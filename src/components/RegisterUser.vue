@@ -95,22 +95,14 @@ export default {
       console.log('Registering user...');
       this.$http.post(this.baseurl+'/attendee', this.form)
         .then((result) => {
-          console.log('User registered successfully.');
+          this.$snotify.success('User registered successfully!!', 'Success');
+
           alert(result.data.message+' with id '+result.data.attendee.id);
         })
         .catch(error => {
-
+          this.$snotify.error('Something went wrong!!', 'Error');
         })
     },
-    cropTime (event) {
-      let aud = document.getElementById('audio-player')
-      if (event === 'start') {
-        this.startTime = aud.currentTime
-      }
-      if (event === 'end') {
-        this.endTime = aud.currentTime
-      }
-    }
   }
 }
 </script>

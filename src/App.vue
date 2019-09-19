@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
+      <vue-snotify></vue-snotify>
       <router-link to="/"></router-link>
     </div>
     <router-view/>

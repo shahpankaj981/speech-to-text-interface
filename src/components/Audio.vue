@@ -9,7 +9,7 @@
               <br><br>
               <b-tab title="Upload File">
                 <b>Upload File</b> &nbsp;
-                <input type="file" ref="file" v-on:change="handleFileChange()">
+                <input type="file"  accept=".mp3,.wav" ref="file" v-on:change="handleFileChange()">
 
                 <br>
                 <div class="row">
@@ -193,6 +193,7 @@ export default {
     }
   },
   mounted () {
+
   },
   watch: {
     savedAudioFile () {
@@ -252,7 +253,7 @@ export default {
     submitFile () {
       var self = this
       if (!this.audioFile) {
-        alert('File is required.')
+        this.$snotify.error('File is required.', 'Error!!');
 
         return false
       }
@@ -271,21 +272,25 @@ export default {
         })
         .then((result) => {
           console.log('File Uploaded successfully. Now transcribing...');
+          this.$snotify.success('File uploaded successfully!!', 'Success');
           this.uploadingStatusText = 'Transcribing...'
           this.savedAudioFile = result.data.filename
           this.$http.get(this.baseurl + '/transcribe/' + this.savedAudioFile)
             .then((transcribedResult) => {
               console.log('transcribed successfully');
+              this.$snotify.success('Speech transcribed successfully!!', 'Success');
               self.formatConversation(transcribedResult.data.data)
               this.uploadingStatus = false
               self.transcribed = true
             })
             .catch((error) => {
               this.uploadingStatus = false
+              this.$snotify.error('Error transcribing speech!!', 'Error!!');
             })
         })
         .catch((error) => {
           this.uploadingStatus = false
+          this.$snotify.error('Error uploading file!!', 'Error!!');
         })
     },
     formatConversation (result) {
