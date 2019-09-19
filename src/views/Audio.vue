@@ -1,7 +1,7 @@
 <template>
   <div>
 <!--    <audio-upload baseurl="http://13.59.65.163:5002/speech-meeting-app/"></audio-upload>-->
-    <audio-upload baseurl="http://3.16.193.35:5002/speech-meeting-app"></audio-upload>
+    <audio-upload baseurl="http://localhost:8080/speech-meeting-app"></audio-upload>
   </div>
 </template>
 

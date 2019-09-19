@@ -200,7 +200,7 @@ export default {
       this.$http.get(this.baseurl + '/audio/' + this.savedAudioFile)
         .then(response => {
           console.log('audio url', response)
-          self.audioFullPath = 'http://3.16.193.35:5002' + response.data.audio_url
+          self.audioFullPath = 'http://localhost:8080' + response.data.audio_url
         })
         .catch(error => {
           return ''
@@ -260,7 +260,8 @@ export default {
       this.uploadingStatus = true
       console.log('Uploading file....')
       let formData = new FormData()
-      formData.append('audio', this.audioFile, 'audio' + Math.floor(Math.random() * 256000) + '.mp3')
+      let mimeType = this.audioFile.name.split('.').pop();
+      formData.append('audio', this.audioFile, 'audio' + Math.floor(Math.random() * 256000) + '.'+mimeType)
       //axios call here....
       this.$http.post(this.baseurl + '/upload/audio', formData,
         {

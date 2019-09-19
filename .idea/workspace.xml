@@ -5,6 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041cdb14-ed35-4b4a-8b4d-0ac35e604e92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.25ae7408.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.d1d3fe5b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.d1d3fe5b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0eb31ce6f9aa56d2e811be1179ead1a9.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0eb31ce6f9aa56d2e811be1179ead1a9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1a70988769640ceaee47b0138da927ec.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1a70988769640ceaee47b0138da927ec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9c9b06874f81a3b787879757e9ccd659.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9c9b06874f81a3b787879757e9ccd659.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b9441a5ae15ac16ce56f829535fe8fb6.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b9441a5ae15ac16ce56f829535fe8fb6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d15979232c467491dc7ccd36436d83bf.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d15979232c467491dc7ccd36436d83bf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/103d2470df11e5d567fd762b40b38a19.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/103d2470df11e5d567fd762b40b38a19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/1fc3d6f94a56d971c7c16f4ec9b45ab7.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/1fc3d6f94a56d971c7c16f4ec9b45ab7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/27741275f32544836a0e13c99b20003e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/27741275f32544836a0e13c99b20003e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/4c6e18d71cde89a67c19f63fc26dcd4d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/4c6e18d71cde89a67c19f63fc26dcd4d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5ddf468ea0990f1b54018763d833d20e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5ddf468ea0990f1b54018763d833d20e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6d0d15d4deaace55bd7d3561217f7dca.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6d0d15d4deaace55bd7d3561217f7dca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7bbf33051d0641694e5e869e7ac5fb4d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7bbf33051d0641694e5e869e7ac5fb4d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/80f91b069020152b5bbd6c07eed4a3db.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/80f91b069020152b5bbd6c07eed4a3db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/97121b1fedc43553b3337370709ae674.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/97121b1fedc43553b3337370709ae674.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/9971a58d64e21d923b93987989e25af2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/9971a58d64e21d923b93987989e25af2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/a8bd0a2bd07688d55c01434d132abbb6.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/a8bd0a2bd07688d55c01434d132abbb6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b28498af8fa410115ea893c2d1e390ad.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b28498af8fa410115ea893c2d1e390ad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bc3b50d785c1bad4176fbd729e5ccf31.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bc3b50d785c1bad4176fbd729e5ccf31.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Audio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Audio.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Audio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Audio.vue" afterDir="false" />
     </list>
@@ -35,20 +58,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/Audio.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Audio.vue">
+        <entry file="file://$PROJECT_DIR$/vue.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
-              <caret line="202" column="55" selection-start-line="202" selection-start-column="55" selection-end-line="202" selection-end-column="55" />
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Audio.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="263" column="106" selection-start-line="263" selection-start-column="106" selection-end-line="263" selection-end-column="106" />
               <folding>
                 <element signature="n#b-tab#0;n#b-tabs#0;n#div#0;n#div#0;n#b-card#0;n#div#1;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#b-tab#1;n#b-tabs#0;n#div#0;n#div#0;n#b-card#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -97,6 +141,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>start</find>
@@ -134,15 +185,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/AudioRecorder.vue" />
         <option value="$PROJECT_DIR$/src/components/Train.vue" />
         <option value="$PROJECT_DIR$/src/components/RegisterMeeting.vue" />
         <option value="$PROJECT_DIR$/src/components/RegisterUser.vue" />
         <option value="$PROJECT_DIR$/src/components/TrainVoice.vue" />
-        <option value="$PROJECT_DIR$/src/components/Audio.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/vue.config.js" />
         <option value="$PROJECT_DIR$/src/views/Audio.vue" />
+        <option value="$PROJECT_DIR$/src/components/Audio.vue" />
       </list>
     </option>
   </component>
@@ -169,28 +221,6 @@
             <path>
               <item name="audio" type="b2602c69:ProjectViewProjectNode" />
               <item name="audio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="audio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,17 +296,18 @@
       <workItem from="1568709563683" duration="6354000" />
       <workItem from="1568778519518" duration="10294000" />
       <workItem from="1568818608249" duration="51000" />
+      <workItem from="1568871104234" duration="6819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105806000" />
+    <option name="totallyTimeSpent" value="113746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22346368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22346368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -288,11 +319,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32866043" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.119937696" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.36915886" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,16 +423,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="-482">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
@@ -436,23 +460,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Audio.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/Audio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="202" column="55" selection-start-line="202" selection-start-column="55" selection-end-line="202" selection-end-column="55" />
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Audio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="263" column="106" selection-start-line="263" selection-start-column="106" selection-end-line="263" selection-end-column="106" />
           <folding>
             <element signature="n#b-tab#0;n#b-tabs#0;n#div#0;n#div#0;n#b-card#0;n#div#1;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#b-tab#1;n#b-tabs#0;n#div#0;n#div#0;n#b-card#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#span#0;n#button#0;n#div#0;n#b-tab#1;n#b-tabs#0;n#div#0;n#div#0;n#b-card#0;n#div#1;n#div#0;n#template#0;n#!!top" />
             <element signature="n#span#0;n#button#1;n#div#0;n#b-tab#1;n#b-tabs#0;n#div#0;n#div#0;n#b-card#0;n#div#1;n#div#0;n#template#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Audio.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
         </state>
       </provider>
     </entry>
