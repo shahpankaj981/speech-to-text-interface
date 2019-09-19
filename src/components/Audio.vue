@@ -201,7 +201,7 @@ export default {
       this.$http.get(this.baseurl + '/audio/' + this.savedAudioFile)
         .then(response => {
           console.log('audio url', response)
-          self.audioFullPath = 'http://localhost:8080' + response.data.audio_url
+          self.audioFullPath = 'http://3.16.193.35:5001' + response.data.audio_url
         })
         .catch(error => {
           return ''
